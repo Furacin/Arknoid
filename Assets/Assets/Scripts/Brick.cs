@@ -1,0 +1,29 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Brick : MonoBehaviour {
+
+	public int maxHits;
+	public int timesHit;
+
+	// Use this for initialization
+	void Start () {
+		timesHit = 0;
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+	// Metodo en override (no hay que poner override). Evento de Colision
+	void OnCollisionEnter2D(Collision2D col) {
+		print ("Ouch you hit me!");
+		timesHit++;
+
+		if (timesHit == maxHits) {
+			print ("Destroyed");
+			Destroy (gameObject);
+		}
+	}
+}
