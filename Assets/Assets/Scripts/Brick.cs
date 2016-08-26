@@ -10,20 +10,19 @@ public class Brick : MonoBehaviour {
 	void Start () {
 		timesHit = 0;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
-	// Metodo en override (no hay que poner override). Evento de Colision
-	void OnCollisionEnter2D(Collision2D col) {
+	void OnCollisionEnter2D(Collision2D col){
 		print ("Ouch you hit me!");
 		timesHit++;
 
 		if (timesHit == maxHits) {
-			print ("Destroyed");
-			Destroy (gameObject);
+			print ("Destroyed!");
+			Destroy(gameObject);
 		}
 	}
 }

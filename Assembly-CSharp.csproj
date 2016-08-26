@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Assets\Scripts\Brick.cs" />
+     <Compile Include="Assets\Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Assets\Scripts\Lose.cs" />
      <Compile Include="Assets\Assets\Scripts\Paddle.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
