@@ -1,28 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\Brick.cs">
     <Files>
-      <File FileName="Assets\Assets\Scripts\Ball.cs" Line="6" Column="23" />
-      <File FileName="Assets\Assets\Scripts\Paddle.cs" Line="27" Column="3" />
-      <File FileName="Assets\Assets\Scripts\Brick.cs" Line="27" Column="3" />
-      <File FileName="Assets\Assets\Scripts\GameManager.cs" Line="120" Column="28" />
-      <File FileName="Assets\Assets\Scripts\Lose.cs" Line="22" Column="50" />
+      <File FileName="Assets\Assets\Scripts\Brick.cs" Line="93" Column="45" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Arknoid" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="GameManager.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

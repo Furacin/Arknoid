@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class Paddle : MonoBehaviour {
 
 	public int i=0;
+	public AudioClip sound;
 
 	// Use this for initialization
 	void Start () {
@@ -24,5 +26,15 @@ public class Paddle : MonoBehaviour {
 
 		// Cambiar paddle para nueva X posicion
 		this.transform.position = paddlePos;
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+		print ("Hit the paddle!");
+
+		// Cambiar el tono 
+		GetComponent<AudioSource>().pitch = Time.timeScale;
+
+		// Sonido al tocar el muro
+		GetComponent<AudioSource>().PlayOneShot(sound);
 	}
 }
