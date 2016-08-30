@@ -1,8 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\Brick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets\Scripts\Lose.cs">
     <Files>
-      <File FileName="Assets\Assets\Scripts\Brick.cs" Line="93" Column="45" />
+      <File FileName="Assets\Assets\Scripts\Lose.cs" Line="32" Column="4" />
+      <File FileName="Assets\Assets\Scripts\ExtraBall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\BasePowerUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\PowerUpDrop.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\Ball.cs" Line="1" Column="1" />
+      <File FileName="Assets\Assets\Scripts\ChangePaddleSize.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

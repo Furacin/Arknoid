@@ -25,10 +25,10 @@ public class Lose : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D trigger){
-		print ("Lost Triggered!");
-
-		//Wait before restarting level
-		StartCoroutine(Pause());
-
+		if (trigger.name == "Ball") {
+			print ("Lost Triggered!");
+			//Wait before restarting level
+			StartCoroutine (Pause ());
+		}
 	}
 }

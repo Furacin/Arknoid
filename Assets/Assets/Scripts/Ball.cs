@@ -7,6 +7,12 @@ public class Ball : MonoBehaviour {
 	public bool gameStarted = false;
 	private Vector3 paddleVector;
 
+	// Velocidades maxima y minima de la bola
+	public float MinSpeed = 10;
+	public float MaxSpeed = 20;
+
+	public float MinimumVerticalMovement = 0.5F;
+
 	// Use this for initialization
 	void Start () {
 		// Ponemos la bola sobre el paddle
@@ -23,5 +29,10 @@ public class Ball : MonoBehaviour {
 				this.GetComponent<Rigidbody2D>().velocity = new Vector2 (2f,10f);
 			}
 		}
+		launchBall ();
+	}
+
+	public void launchBall() {
+
 	}
 }
