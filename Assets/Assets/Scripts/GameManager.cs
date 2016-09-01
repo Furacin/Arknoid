@@ -31,8 +31,8 @@ public class GameManager : MonoBehaviour {
 	private int seconds;
 	public string formattedTime;
 
-	//private Text feedback;
-	//public Text text;
+	private Text feedback;
+	public Text text;
 
 	public GameObject restartButton;
 	public GameObject mainMenuButton;
