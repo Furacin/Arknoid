@@ -31,6 +31,13 @@ public class GameManager : MonoBehaviour {
 	private int seconds;
 	public string formattedTime;
 
+	//private Text feedback;
+	//public Text text;
+
+	public GameObject restartButton;
+	public GameObject mainMenuButton;
+	public GameObject buttonBackground;
+
 	// Use this for initialization
 	void Start () {
 
@@ -111,6 +118,13 @@ public class GameManager : MonoBehaviour {
 			break;
 		}
 
+	}
+
+	public void EnableButtons() {
+		//Activar los botones cuando el jugador pierde
+		restartButton.SetActive (true);
+		mainMenuButton.SetActive (true);
+		buttonBackground.SetActive (true);
 	}
 
 	public void ChangeText(string text) {
